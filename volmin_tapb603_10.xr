@@ -1,0 +1,22 @@
+Filetype: Cross Remote File
+Version: 1
+#
+remote_type: IR
+name: volmin_tapb603_10
+time: 50
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 11 00 00 00
+#
+remote_type: PAUSE
+name: Pause 300ms
+time: 0.3
+#
+remote_type: IR
+name: volmin_tapb603_10
+time: 50
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 11 00 00 00

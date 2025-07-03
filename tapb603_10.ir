@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+#
+name: Onoff
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 0C 00 00 00
+#
+name: Source
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: E8 00 00 00
+#
+name: Pairplaypause
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 5C 00 00 00
+#
+name: Next
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 5B 00 00 00
+#
+name: Prev
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 5A 00 00 00
+#
+name: Mute
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 0D 00 00 00
+#
+name: Dimmer
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: E9 00 00 00
+#
+name: Dolby
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 15 00 00 00
+#
+name: Equalizer
+type: parsed
+protocol: RC6
+address: 14 00 00 00
+command: 4E 00 00 00
+#
+name: Bass
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 1C 00 00 00
+#
+name: Treble
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 1D 00 00 00
+#
+name: Volplus
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 10 00 00 00
+#
+name: Volmin
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 11 00 00 00

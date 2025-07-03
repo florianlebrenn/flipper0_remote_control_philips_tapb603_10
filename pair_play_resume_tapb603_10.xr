@@ -1,0 +1,22 @@
+Filetype: Cross Remote File
+Version: 1
+#
+remote_type: IR
+name: pair_play_resume_tapb603_10
+time: 50
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 5C 00 00 00
+#
+remote_type: PAUSE
+name: Pause 300ms
+time: 0.3
+#
+remote_type: IR
+name: pair_play_resume_tapb603_10
+time: 50
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 5C 00 00 00
